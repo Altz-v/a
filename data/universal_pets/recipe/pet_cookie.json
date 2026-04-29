@@ -1,9 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
-    "minecraft:cookie",
-    "minecraft:bone",
-    "minecraft:wheat"
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
   ],
   "result": {
     "id": "minecraft:cookie",
