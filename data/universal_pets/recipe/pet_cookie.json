@@ -1,21 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "pattern": [
-    " BW",
-    " C ",
-    "   "
+    "#/",
+    "C "
   ],
   "key": {
-    "B": {
-      "item": "minecraft:bone"
-    },
-    "W": {
-      "item": "minecraft:wheat"
-    },
-    "C": {
-      "item": "minecraft:cookie"
-    }
+    "#": "minecraft:wheat",
+    "/": "minecraft:bone",
+    "C": "minecraft:cookie"
   },
   "result": {
     "id": "minecraft:cookie",
@@ -24,8 +16,7 @@
       "minecraft:custom_name": "{\"text\":\"Pet Cookie\",\"italic\":false,\"color\":\"gold\"}",
       "minecraft:lore": [
         "{\"text\":\"Use this cookie near a passive mob\",\"italic\":false,\"color\":\"gray\"}",
-        "{\"text\":\"to bind it as your universal pet.\",\"italic\":false,\"color\":\"gray\"}",
-        "{\"text\":\"Recipe order: Bone + Wheat above Cookie\",\"italic\":false,\"color\":\"dark_gray\"}"
+        "{\"text\":\"to bind it as your universal pet.\",\"italic\":false,\"color\":\"gray\"}"
       ],
       "minecraft:custom_data": {
         "universal_pets": {
