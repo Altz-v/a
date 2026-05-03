@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/",
+    "C "
+  ],
+  "key": {
+    "#": "minecraft:wheat",
+    "/": "minecraft:bone",
+    "C": "minecraft:cookie"
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Pet Cookie\",\"italic\":false,\"color\":\"gold\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Use this cookie near a passive mob\",\"italic\":false,\"color\":\"gray\"}",
+        "{\"text\":\"to bind it as your universal pet.\",\"italic\":false,\"color\":\"gray\"}"
+      ],
+      "minecraft:custom_data": {
+        "universal_pets": {
+          "pet_cookie": 1
+        }
+      },
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}
